@@ -9,7 +9,7 @@ It features:
 - **Intent detection**: When implementing your own skills, you can set up samples that the bot can be trained upon.
 - **Trainable**: You can train the bot on your own skills and samples by using `tensorflow` and `keras`.
 - **Entity detection**: Entity detection is implemented using `spacy` to add parameters to your skill.
-- **Async voice output**: The bot speaks the voice output asynchronously to the user by using `pyttsx3`.
+- **Async voice output**: The bot speaks the voice output asynchronously to the user by using `pyttsx3`. (Area for improvement ;-) )
 
 
 
@@ -18,7 +18,7 @@ It features:
 
 This repository uses `poetry` to manage dependencies. So start by installing `poetry` and then run `poetry install`. When finished, you can run `make run` to start the bot.
 
-```bash
+```text
 $ poetry run python3 app.py
 Hi!
 DBG> What is the current time?
@@ -36,6 +36,12 @@ At the moment I chose the license to be GPLv3. This is because this is a free so
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+## References
+
+- [Medium Article: How to build a chatbot using deep learing](https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281)
+- [Spacy dependency visualizer](https://explosion.ai/demos/displacy)
+- [Jarvis desktop assistant](https://github.com/sukeesh/Jarvis)
+
 ## TODOs
 
 - [ ] Show entity detection on a non classified example
@@ -52,3 +58,4 @@ At the moment I chose the license to be GPLv3. This is because this is a free so
 - [ ] Help skill intent name is only `hel`. Why is that and how can it be fixed?
 - [ ] Voice output is very slow, very very slow. How can that be fixed?
 - [ ] Voice output with different intonations (there are at least 30 on my system), configurable?
+- [ ] Load skills at runtime, so if you change something in the skill, you do not have to restart the bot.
