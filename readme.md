@@ -38,11 +38,11 @@ At the moment I chose the license to be GPLv3. This is because this is a free so
 
 ## TODOs
 
-[ ]: More skills, e.g. Work time tracking, open mail, write new mail, open browser with search
-[ ]: Is it possible to implement dialogs using this system?
-[ ]: Stupid tensorflow warnings should be left out of the output
-[ ]: Voice Input - simple.
-[ ]: Voice Activation - need to do some research.
-[ ]: Help skill intent name is only `hel`. Why is that and how can it be fixed?
-[ ]: Voice output is very slow, very very slow. How can that be fixed?
-[ ]: Voice output with different intonations (there are at least 30 on my system), configurable?
+[]: More skills, e.g. Work time tracking, open mail, write new mail, open browser with search
+[]: Is it possible to implement dialogs using this system?
+[]: Stupid tensorflow warnings should be left out of the output
+[]: Voice Input - simple.
+[]: Voice Activation - need to do some research.
+[]: Help skill intent name is only `hel`. Why is that and how can it be fixed?
+[]: Voice output is very slow, very very slow. How can that be fixed?
+[]: Voice output with different intonations (there are at least 30 on my system), configurable?
