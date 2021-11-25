@@ -20,5 +20,6 @@ class BaseSkill():
     def actAndGetResponse(self, **kwargs) -> str:
         pass
 
+    # by default we return an empty entity dictionary
     def parseEntities(self, doc) -> dict:
         return {}

@@ -35,12 +35,10 @@ if __name__ == '__main__':
         command = input(colorama.Fore.RESET + "DBG> ")
 
         # interpret command for intent
-        # TODO: Intent recognition
-        # intent = command.split()[0]
         intent = intentCheck.getIntentFromString(command)
 
-        # # parse parameters from command string
-        params = {'intentCheck': intentCheck, 'voice': vocal_output, 'skills': skills.skills} # initialize standard set of parameters
+        # initialize standard set of parameters
+        params = {'intentCheck': intentCheck, 'voice': vocal_output, 'skills': skills.skills} 
 
         try: # find and execute skill
             skill = skills.skills[intent]
