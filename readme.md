@@ -11,12 +11,9 @@ It features:
 - **Entity detection**: Entity detection is implemented using `spacy` to add parameters to your skill.
 - **Async voice output**: The bot speaks the voice output asynchronously to the user by using `pyttsx3`. (Area for improvement ;-) )
 
+## Installation and examples
 
-
-
-## Installation
-
-This repository uses `poetry` to manage dependencies. So start by installing `poetry` and then run `poetry install`. When finished, you can run `make run` to start the bot.
+This repository uses `poetry` to manage dependencies. So start by installing `poetry` and then run `poetry install`. When finished, you can run `make train` to build the tensorflow model for the bot and `make run` to start the bot.
 
 ```text
 $ poetry run python3 app.py
@@ -29,6 +26,24 @@ DBG> Bye!
 Bye!
 Shutting down...
 ```
+
+## Training new skills for the bot
+
+You can safely run `make train` to train the bot on all skills in the skill directory. The old tensorflow model is overwritten.
+
+## List of skills
+
+### General skills
+
+- `mytime`: Returns the current time.
+- `mydate`: Returns the current date.
+- `mydatetime`: Returns the current date and time.
+- `joke`: Returns a random joke using the jokes API.
+- `greeting`: Returns a random greeting.
+- `clear`: Clears the terminal.
+- `myquit`: Exits the bot.
+- `myhelp`: Returns a list of available skills.
+- `browsersearch`: Opens a browser tab with the search results from google.
 
 ## License
 

@@ -13,7 +13,8 @@ class QuitSkill(BaseSkill):
             "exit",
             "shutdown",
             "please end program",
-            "shut down"
+            "shut down",
+            "bye"
         ]
         self.responses = [
             "Bye!",
