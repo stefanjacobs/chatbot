@@ -1,0 +1,5 @@
+**/vendo/**
+sir-bot-a-lot.brain
+**/*.pickle
+.vscode
+**/__pycache__
